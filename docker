@@ -1,0 +1,3 @@
+sudo /sbin/sysctl -w net.ipv4.tcp_keepalive_time=5 net.ipv4.tcp_keepalive_intvl=5 net.ipv4.tcp_keepalive_probes=5
+
+docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
